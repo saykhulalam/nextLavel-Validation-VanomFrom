@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        container: '1400px',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
